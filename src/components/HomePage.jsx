@@ -108,7 +108,7 @@ export default function HomePage() {
                             <td>{via}</td>
                             <td>{created_at}</td>
                             <td><span className={is_archived ? 'archived' : 'unarchived'}>{is_archived ? 'Archived' : 'Unarchive'}</span></td>
-                            <td><button className="blueBtn" onClick={()=>addNote(id)}>Add Notes</button> </td>
+                            <td><button className="add-note-btn blueBtn" onClick={()=>addNote(id)}>Add Notes</button> </td>
                         </tr>
                     })}
                     </tbody>

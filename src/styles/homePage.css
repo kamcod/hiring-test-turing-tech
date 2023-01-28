@@ -28,6 +28,15 @@
 .calls-table tr {
     border: 1px solid #CBD6E2;
 }
+.calls-table .add-note-btn {
+    /*font-family: "avenir";*/
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+}
 .calls-table thead th {
     /*font-family: "avenir";*/
     font-size: 12px;
