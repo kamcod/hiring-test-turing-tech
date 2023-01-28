@@ -96,7 +96,7 @@ export default function HomePage() {
                     </thead>
                     <tbody>
                     {callsData?.map(({id, call_type, direction, duration, from, to, via, created_at, is_archived, notes }) => {
-                        return <tr>
+                        return <tr key={id}>
                             <td><span className={call_type}>{call_type}</span></td>
                             <td><span className="direction">{direction}</span></td>
                             <td><div className="duration">
